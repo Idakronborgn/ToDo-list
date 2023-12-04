@@ -1,0 +1,129 @@
+/* styles/styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin: 0 1rem;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  nav a:hover {
+    color: #ffc107; /* Change the color on hover */
+  }
+
+  body {
+    background: #242325;
+  }
+
+  .home-page{
+    margin: auto;
+    text-align: center;
+    color: white;
+    background: #333;
+    margin-top: 5rem;
+    padding: 2rem;
+    border-radius: 15px;
+    max-width: 350px;
+  }
+
+  h2 {
+    margin: auto;
+    text-align: center;
+    color: white;
+    background: #333;
+    margin-top: 5rem;
+    padding: 2rem;
+    border-radius: 15px;
+    max-width: 350px;
+  }
+
+  .todo {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    color: white;
+    width: 320px;
+    padding: 10px;
+    margin-top: 0.5rem;
+    gap: 15px;
+    border-radius: 15px;
+  }
+
+  .todo-input {
+    outline: none;
+    background: none;
+    border: 1px solid #ffc107;;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    width: 250px;
+    color: grey;
+    border-radius: 5px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .todo-btn {
+    background: gold;
+    color:#333; 
+    border: none;
+    padding: 0.55rem;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .completed {
+    color: grey;
+    text-decoration: line-through;
+    cursor: pointer;
+  }
+
+  .delete {
+    background: #601700;
+    padding: 0.55rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+  }
+
+  .update{
+    background: #8ACB88;
+    padding: 0.55rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+  }
+  
